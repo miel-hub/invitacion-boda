@@ -76,7 +76,7 @@
 /* --- ELEMENTOS DE LA IMAGEN 2 --- */
 .boton-audio {
   position: absolute;
-  top: 18.5%; /* <- Ajusta este % */
+  top: 19.4%; /* <- Ajusta este % */
   left: 53%;
   transform: translate(-50%, -50%);
   width: 10%;
@@ -95,10 +95,10 @@
 
 .contenedor-contador {
   position: absolute;
-  top: 55%; /* <- Ajusta este % si necesitas subir o bajar todo el bloque */
+  top: 53.3%; /* <- Ajusta este % si necesitas subir o bajar todo el bloque */
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,7 +132,7 @@
 
 .boton-ceremonia {
   position: absolute;
-  top: 71.6%; /* <- Ajusta para el botón "Ubicación" de ceremonia */
+  top: 69.7%; /* <- Ajusta para el botón "Ubicación" de ceremonia */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 21%;
@@ -143,10 +143,10 @@
 
 .boton-recepcion {
   position: absolute;
-  top: 77.7%; /* <- Ajusta para el botón "Ubicación" de recepción */
-  left: 51%;
+  top: 76.3%; /* <- Ajusta para el botón "Ubicación" de recepción */
+  left: 52%;
   transform: translate(-50%, -50%);
-  width: 21%;
+  width: 22%;
   height: 0.4%;
   cursor: pointer;
   border: px solid rgb(247, 245, 245); /* BORDE PARA APUNTAR */
@@ -164,7 +164,7 @@
 
 .input-nombre {
   position: absolute;
-  top: 64.3%; /* <- Ajusta para el input del nombre */
+  top: 65.6%; /* <- Ajusta para el input del nombre */
   left: 55%;
   transform: translate(-50%, -50%);
   width: 63%;
@@ -182,8 +182,8 @@
 
 .boton-enviar {
   position: absolute;
-  top: 67.2%; /* <- Ajusta para el botón verde de "Enviar" */
-  left: 50%;
+  top: 68.5%; /* <- Ajusta para el botón verde de "Enviar" */
+  left: 53%;
   transform: translate(-50%, -50%);
   width: 28%;
   height: 1.5%;
