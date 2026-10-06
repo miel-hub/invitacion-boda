@@ -34,11 +34,11 @@
 
 .boton-abrir {
   position: absolute;
-  top: 67%; /* <- Mueve este % para centrarlo en el sello de cera */
-  left: 48%;
+  top: 81%; /* <- Mueve este % para centrarlo en el sello de cera */
+  left: 49%;
   transform: translate(-30%, -50%);
-  width: 10%;
-  height: 8%;
+  width: 6%;
+  height: 6%;
   cursor: pointer;
   border: px solid rgb(248, 242, 242); /* BORDE PARA APUNTAR */
 }
