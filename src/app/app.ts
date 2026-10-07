@@ -94,7 +94,9 @@ export class App implements OnInit {
       });
     }
   }
-
+mostrarDatosBancarios() {
+    alert("¡Muchas gracias por el detalle!\n\n💳 Mi número de cuenta BCP Soles es:\n47000933894079\n\n🏦 Mi número de cuenta interbancaria es:\n00247010093389407934");
+  }
   iniciarContador() {
     setInterval(() => {
       const ahora = new Date().getTime();

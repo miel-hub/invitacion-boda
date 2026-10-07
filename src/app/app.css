@@ -193,3 +193,15 @@
   pointer-events: auto;
   border: px solid rgb(255, 255, 255); /* BORDE PARA APUNTAR */
 }
+.boton-obsequios {
+  position: absolute;
+  top: 75%; /* <-- Cambia este porcentaje para subir o bajar el botón */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 45%; /* Qué tan ancho es tu botón */
+  height: 6%; /* Qué tan alto es tu botón */
+  cursor: pointer;
+
+  /* BORRA LA LÍNEA DE ABAJO CUANDO YA LO HAYAS ACOMODADO EN SU LUGAR */
+  background-color: rgba(255, 0, 0, 0.4);
+}
